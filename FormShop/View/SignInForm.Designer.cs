@@ -1,6 +1,6 @@
-﻿namespace Cursa4_Test
+﻿namespace FormShop.View
 {
-    partial class SignIn
+    partial class SignIn : Form
     {
         /// <summary>
         ///  Required designer variable.
@@ -51,6 +51,7 @@
             resources.ApplyResources(this.SignIn_BTN, "SignIn_BTN");
             this.SignIn_BTN.Name = "SignIn_BTN";
             this.SignIn_BTN.UseVisualStyleBackColor = true;
+            this.SignIn_BTN.Click += new System.EventHandler(this.SignIn_BTN_Click);
             // 
             // Register_BTN
             // 

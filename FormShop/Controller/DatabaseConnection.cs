@@ -1,4 +1,4 @@
-﻿using System.Data.SqlClient;
+using System.Data.SqlClient;
 using FormShop.Model;
 
 namespace FormShop.Controller
