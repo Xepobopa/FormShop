@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using FormShop.Model;
 using WindowsFormsApp1.View.CustomControls;
 using FormShop.Controller;
+using FormShop.View.AddProduct;
 using System.Linq;
 
 namespace WindowsFormsApp1
@@ -85,6 +86,12 @@ namespace WindowsFormsApp1
         {
             product_controller = new ProductController();
             AddProductsToList(product_controller._products);   
+        }
+
+        private void AddProduct_button_Click(object sender, EventArgs e)
+        {
+            AppProductForm addForm = new AppProductForm();
+            addForm.Show();
         }
     }
 }

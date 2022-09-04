@@ -35,6 +35,7 @@
             this.Submit_button = new System.Windows.Forms.Button();
             this.id_comboBox = new System.Windows.Forms.ComboBox();
             this.price_numericUpDown = new System.Windows.Forms.NumericUpDown();
+            this.Delete_button = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.price_numericUpDown)).BeginInit();
             this.SuspendLayout();
             // 
@@ -76,7 +77,7 @@
             // 
             this.Submit_button.Location = new System.Drawing.Point(12, 176);
             this.Submit_button.Name = "Submit_button";
-            this.Submit_button.Size = new System.Drawing.Size(225, 23);
+            this.Submit_button.Size = new System.Drawing.Size(112, 23);
             this.Submit_button.TabIndex = 6;
             this.Submit_button.Text = "Submit";
             this.Submit_button.UseVisualStyleBackColor = true;
@@ -107,11 +108,22 @@
             this.price_numericUpDown.Size = new System.Drawing.Size(225, 23);
             this.price_numericUpDown.TabIndex = 7;
             // 
+            // Delete_button
+            // 
+            this.Delete_button.Location = new System.Drawing.Point(125, 176);
+            this.Delete_button.Name = "Delete_button";
+            this.Delete_button.Size = new System.Drawing.Size(112, 23);
+            this.Delete_button.TabIndex = 8;
+            this.Delete_button.Text = "Delete";
+            this.Delete_button.UseVisualStyleBackColor = true;
+            this.Delete_button.Click += new System.EventHandler(this.Delete_button_Click);
+            // 
             // ChangeDataForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(250, 211);
+            this.Controls.Add(this.Delete_button);
             this.Controls.Add(this.price_numericUpDown);
             this.Controls.Add(this.id_comboBox);
             this.Controls.Add(this.Submit_button);
@@ -136,5 +148,6 @@
         private Button Submit_button;
         private ComboBox id_comboBox;
         private NumericUpDown price_numericUpDown;
+        private Button Delete_button;
     }
 }
