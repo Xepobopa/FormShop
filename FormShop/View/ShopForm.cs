@@ -9,14 +9,14 @@ using FormShop.Controller;
 using FormShop.View.AddProduct;
 using System.Linq;
 
-namespace WindowsFormsApp1
+namespace FormShop.View
 {
-    public partial class StartForm : Form
+    public partial class ShopForm : Form
     {
         ProductController product_controller;
         CategoryController category_controller;
 
-        public StartForm()
+        public ShopForm()
         {
             InitializeComponent();
             product_controller = new ProductController();

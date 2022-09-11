@@ -1,12 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using FormShop.View;
+using FormShop.Controller;
 
 namespace FormShop.View
 {
@@ -15,6 +8,11 @@ namespace FormShop.View
         public UserForm()
         {
             InitializeComponent();
+        }
+
+        private void GoToShop_button_Click(object sender, EventArgs e)
+        {
+            FormController.Start("ShopForm");
         }
     }
 }

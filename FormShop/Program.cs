@@ -1,25 +1,11 @@
-//<<<<<<< sign-in-form
 using FormShop.Controller;
-using FormShop.Model;
 using FormShop.View;
-//=======
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using FormShop.Controller;
-using FormShop.Model;
-//>>>>>>> main_functionality
+using FormShop.View.ProductChangeData;
 
 namespace WindowsFormsApp1
 {
     internal static class Program
     {
-        /// <summary>
-        /// ������� ����� ����� ��� ����������.
-        /// Главная точка входа для приложения.
-        /// </summary>
         [STAThread]
         static void Main()
         {
@@ -33,13 +19,12 @@ namespace WindowsFormsApp1
             FormController.Add(new UserForm());
             FormController.Add(new FailedForm());
             FormController.Add(new RegisterForm());
+            FormController.Add(new ShopForm());
+            FormController.Add(new ChangeDataForm());
             FormController.SetErrorForm(new FailedForm());
 
             Application.Run(FormController.GetFirst());
         }
     }
 }
-            Application.Run(new StartForm());
-        }
-    }
-}
+           
