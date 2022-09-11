@@ -10,11 +10,14 @@ using System.Windows.Forms;
 
 namespace FormShop.View
 {
-    public partial class AuthFailedForm : Form
+    public partial class FailedForm : Form
     {
-        public AuthFailedForm()
+
+
+        public FailedForm(string msg = "Dima gay")
         {
             InitializeComponent();
+            ErrorMessage_LBL.Text = msg;
         }
     }
 }

@@ -22,5 +22,16 @@ namespace FormShop.View
             FormController.Start(((roleName == null) ? FormController.GetErrorForm().Name : $"{roleName.RoleName}Form"));
 
         }
+
+        private void Exit_BTN_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void Register_BTN_Click(object sender, EventArgs e)
+        {
+            FormController.Start("RegisterForm");
+            userController = new UserController(); // релоадим контроллер, чтобы он получил новые данные
+        }
     }
 }

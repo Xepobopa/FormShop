@@ -1,6 +1,6 @@
 ﻿namespace FormShop.View
 {
-    partial class AuthFailedForm
+    partial class FailedForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,26 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.ErrorMessage_LBL = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label1
+            // ErrorMessage_LBL
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 80F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(161, 140);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(498, 142);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "дима гей";
+            this.ErrorMessage_LBL.AutoSize = true;
+            this.ErrorMessage_LBL.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ErrorMessage_LBL.Location = new System.Drawing.Point(94, 24);
+            this.ErrorMessage_LBL.MaximumSize = new System.Drawing.Size(250, 0);
+            this.ErrorMessage_LBL.Name = "ErrorMessage_LBL";
+            this.ErrorMessage_LBL.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.ErrorMessage_LBL.Size = new System.Drawing.Size(101, 25);
+            this.ErrorMessage_LBL.TabIndex = 0;
+            this.ErrorMessage_LBL.Text = "дима гей";
             // 
-            // AuthFailedForm
+            // FailedForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label1);
-            this.Name = "AuthFailedForm";
+            this.ClientSize = new System.Drawing.Size(289, 186);
+            this.Controls.Add(this.ErrorMessage_LBL);
+            this.Name = "FailedForm";
             this.Text = "AuthFailedForm";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -56,6 +58,6 @@
 
         #endregion
 
-        private Label label1;
+        private Label ErrorMessage_LBL;
     }
 }

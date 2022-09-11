@@ -4,7 +4,7 @@
     {
         public static void Start(string formName)
         {
-            forms.Where(x => x.Name.Equals(formName)).FirstOrDefault().ShowDialog();
+            forms?.Where(x => x.Name.Equals(formName)).FirstOrDefault()?.ShowDialog();
         }
 
         public static void Add(Form form) => forms.Add(form);

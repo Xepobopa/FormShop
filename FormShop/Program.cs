@@ -20,8 +20,9 @@ namespace WindowsFormsApp1
             FormController.Add(new SignIn());
             FormController.Add(new ManagerForm());
             FormController.Add(new UserForm());
-            FormController.Add(new AuthFailedForm());
-            FormController.SetErrorForm(new AuthFailedForm());
+            FormController.Add(new FailedForm());
+            FormController.Add(new RegisterForm());
+            FormController.SetErrorForm(new FailedForm());
 
             Application.Run(FormController.GetFirst());
         }

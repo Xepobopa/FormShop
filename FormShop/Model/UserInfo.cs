@@ -5,7 +5,11 @@ namespace FormShop.Model
     [Table("UserInfo")]
     public class UserInfo
     {
-        public UserInfo() { }
+        public UserInfo() 
+        {
+            RegistrationDate = DateTime.Now;
+            PasswordChange = DateTime.Now;
+        }
 
         [Key]
         public int Id { get; set; }
