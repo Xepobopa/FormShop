@@ -59,7 +59,7 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="Login_TB.Location" type="System.Drawing.Point, System.Drawing">
-    <value>47, 39</value>
+    <value>47, 12</value>
   </data>
   <data name="Login_TB.PlaceholderText" xml:space="preserve">
     <value>Введите логин</value>
@@ -81,10 +81,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Login_TB.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>6</value>
   </data>
   <data name="Password_TB.Location" type="System.Drawing.Point, System.Drawing">
-    <value>47, 87</value>
+    <value>47, 41</value>
   </data>
   <data name="Password_TB.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
     <value>*</value>
@@ -108,10 +108,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Password_TB.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>5</value>
   </data>
   <data name="SignIn_BTN.Location" type="System.Drawing.Point, System.Drawing">
-    <value>47, 133</value>
+    <value>47, 70</value>
   </data>
   <data name="SignIn_BTN.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
@@ -132,10 +132,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;SignIn_BTN.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>4</value>
   </data>
   <data name="Register_BTN.Location" type="System.Drawing.Point, System.Drawing">
-    <value>47, 177</value>
+    <value>47, 99</value>
   </data>
   <data name="Register_BTN.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
@@ -156,10 +156,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Register_BTN.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
   <data name="Exit_BTN.Location" type="System.Drawing.Point, System.Drawing">
-    <value>47, 221</value>
+    <value>47, 128</value>
   </data>
   <data name="Exit_BTN.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
@@ -180,6 +180,61 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Exit_BTN.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ua_button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="ua_button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ua_button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 178</value>
+  </data>
+  <data name="ua_button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 50</value>
+  </data>
+  <data name="ua_button.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;ua_button.Name" xml:space="preserve">
+    <value>ua_button</value>
+  </data>
+  <data name="&gt;&gt;ua_button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ua_button.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ua_button.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ru_button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="ru_button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ru_button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 178</value>
+  </data>
+  <data name="ru_button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 50</value>
+  </data>
+  <data name="ru_button.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;ru_button.Name" xml:space="preserve">
+    <value>ru_button</value>
+  </data>
+  <data name="&gt;&gt;ru_button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ru_button.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ru_button.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

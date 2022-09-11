@@ -34,6 +34,8 @@
             this.SignIn_BTN = new System.Windows.Forms.Button();
             this.Register_BTN = new System.Windows.Forms.Button();
             this.Exit_BTN = new System.Windows.Forms.Button();
+            this.ua_button = new System.Windows.Forms.Button();
+            this.ru_button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Login_TB
@@ -67,10 +69,28 @@
             this.Exit_BTN.UseVisualStyleBackColor = true;
             this.Exit_BTN.Click += new System.EventHandler(this.Exit_BTN_Click);
             // 
+            // ua_button
+            // 
+            this.ua_button.BackgroundImage = global::FormShop.Properties.Resources.rus;
+            resources.ApplyResources(this.ua_button, "ua_button");
+            this.ua_button.Name = "ua_button";
+            this.ua_button.UseVisualStyleBackColor = true;
+            this.ua_button.Click += new System.EventHandler(this.change_lang_button_Click);
+            // 
+            // ru_button
+            // 
+            this.ru_button.BackgroundImage = global::FormShop.Properties.Resources.Ua;
+            resources.ApplyResources(this.ru_button, "ru_button");
+            this.ru_button.Name = "ru_button";
+            this.ru_button.UseVisualStyleBackColor = true;
+            this.ru_button.Click += new System.EventHandler(this.change_lang_button_Click);
+            // 
             // SignIn
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.ru_button);
+            this.Controls.Add(this.ua_button);
             this.Controls.Add(this.Exit_BTN);
             this.Controls.Add(this.Register_BTN);
             this.Controls.Add(this.SignIn_BTN);
@@ -91,5 +111,7 @@
         private Button SignIn_BTN;
         private Button Register_BTN;
         private Button Exit_BTN;
+        private Button ua_button;
+        private Button ru_button;
     }
 }
