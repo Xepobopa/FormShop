@@ -1,6 +1,6 @@
 ﻿using FormShop.Model;
 using Dapper.Contrib.Extensions;
-
+using System.Linq;
 
 namespace FormShop.Controller
 {
@@ -18,6 +18,14 @@ namespace FormShop.Controller
             var connection = new DatabaseConnection(new ControllerJson().jsonModel).connection;
             _products.Add(obj);
             connection.Insert<Product>(obj);
+        }
+
+        // delete by id
+        public void Delete(Product obj)
+        {
+            var connection = new DatabaseConnection(new ControllerJson().jsonModel).connection;
+            //_products.Remove(_products.FirstOrDefault(x => x.Id.Equals(id)));
+            connection.Delete(obj);
         }
 
 

@@ -23,10 +23,13 @@ namespace FormShop.View.ProductChangeData
 
         CategoryController categoryController;
         ProductController productController;
+        Product _product;
 
         // custom loader that we have to call ourself
         public void ChangeDataForm_Load(Product product)
         {
+            _product = product;
+
             this.id_comboBox.Items.AddRange(categoryController._categories.Select(x => x.Name).ToArray());
             this.id_comboBox.SelectedIndex = product.Category_key - 1;
 
@@ -41,6 +44,14 @@ namespace FormShop.View.ProductChangeData
                 int.Parse(this.price_numericUpDown.Value.ToString()), 
                 categoryController._categories.Where(x => x.Name.Equals(this.id_comboBox.Text)).FirstOrDefault().Id));
 
+            productController.Delete(_product);
+
+            this.Close();
+        }
+
+        private void Delete_button_Click(object sender, EventArgs e)
+        {
+            productController.Delete(_product);
             this.Close();
         }
     }

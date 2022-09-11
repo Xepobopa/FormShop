@@ -57,3 +57,4 @@ C:\Users\User\Desktop\FormsShop\FormShop\bin\Debug\net6.0-windows\Slapper.dll
 C:\Users\User\Desktop\FormsShop\FormShop\obj\Debug\net6.0-windows\WindowsFormsApp1.View.CustomControls.ProductControl.resources
 C:\Users\User\Desktop\FormsShop\FormShop\obj\Debug\net6.0-windows\WindowsFormsApp1.StartForm.resources
 C:\Users\User\Desktop\FormsShop\FormShop\obj\Debug\net6.0-windows\FormShop.View.ProductChangeData.ChangeDataForm.resources
+C:\Users\User\Desktop\FormsShop\FormShop\obj\Debug\net6.0-windows\FormShop.View.AddProduct.AppProductForm.resources

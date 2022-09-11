@@ -38,6 +38,7 @@
             this.Price_radioButton = new System.Windows.Forms.RadioButton();
             this.Name_RadioButton = new System.Windows.Forms.RadioButton();
             this.Update_button = new System.Windows.Forms.Button();
+            this.AddProduct_button = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -145,11 +146,22 @@
             this.Update_button.UseVisualStyleBackColor = true;
             this.Update_button.Click += new System.EventHandler(this.Update_button_Click);
             // 
+            // AddProduct_button
+            // 
+            this.AddProduct_button.Location = new System.Drawing.Point(12, 406);
+            this.AddProduct_button.Name = "AddProduct_button";
+            this.AddProduct_button.Size = new System.Drawing.Size(187, 23);
+            this.AddProduct_button.TabIndex = 6;
+            this.AddProduct_button.Text = "Добавить товар";
+            this.AddProduct_button.UseVisualStyleBackColor = true;
+            this.AddProduct_button.Click += new System.EventHandler(this.AddProduct_button_Click);
+            // 
             // StartForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(949, 678);
+            this.Controls.Add(this.AddProduct_button);
             this.Controls.Add(this.Update_button);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.FindProduct_textBox);
@@ -178,6 +190,7 @@
         private RadioButton Name_RadioButton;
         private Label label1;
         private Button Update_button;
+        private Button AddProduct_button;
     }
 }
 

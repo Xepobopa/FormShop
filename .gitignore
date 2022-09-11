@@ -1,0 +1,11 @@
+bin/
+obj/
+lib/
+*.exe
+*.dll
+*.props
+*.cache
+*.json
+*.suo
+*.lock
+*.vsidx
