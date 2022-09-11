@@ -1,13 +1,24 @@
+//<<<<<<< sign-in-form
 using FormShop.Controller;
 using FormShop.Model;
 using FormShop.View;
+//=======
+п»їusing System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using FormShop.Controller;
+using FormShop.Model;
+//>>>>>>> main_functionality
 
 namespace WindowsFormsApp1
 {
     internal static class Program
     {
         /// <summary>
-        /// Главная точка входа для приложения.
+        /// пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.
+        /// Р“Р»Р°РІРЅР°СЏ С‚РѕС‡РєР° РІС…РѕРґР° РґР»СЏ РїСЂРёР»РѕР¶РµРЅРёСЏ.
         /// </summary>
         [STAThread]
         static void Main()
@@ -25,6 +36,10 @@ namespace WindowsFormsApp1
             FormController.SetErrorForm(new FailedForm());
 
             Application.Run(FormController.GetFirst());
+        }
+    }
+}
+            Application.Run(new StartForm());
         }
     }
 }
