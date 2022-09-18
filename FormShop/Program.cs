@@ -33,13 +33,9 @@ namespace WindowsFormsApp1
             FormController.Add(new UserForm());
             FormController.Add(new FailedForm());
             FormController.Add(new RegisterForm());
+            FormController.Add(new PasswordResetForm());
             FormController.SetErrorForm(new FailedForm());
-
             Application.Run(FormController.GetFirst());
-        }
-    }
-}
-            Application.Run(new StartForm());
         }
     }
 }

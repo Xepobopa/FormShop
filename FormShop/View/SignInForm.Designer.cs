@@ -34,6 +34,7 @@
             this.SignIn_BTN = new System.Windows.Forms.Button();
             this.Register_BTN = new System.Windows.Forms.Button();
             this.Exit_BTN = new System.Windows.Forms.Button();
+            this.ResetPassword = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Login_TB
@@ -67,10 +68,18 @@
             this.Exit_BTN.UseVisualStyleBackColor = true;
             this.Exit_BTN.Click += new System.EventHandler(this.Exit_BTN_Click);
             // 
+            // ResetPassword
+            // 
+            resources.ApplyResources(this.ResetPassword, "ResetPassword");
+            this.ResetPassword.Name = "ResetPassword";
+            this.ResetPassword.UseVisualStyleBackColor = true;
+            this.ResetPassword.Click += new System.EventHandler(this.ResetPassword_Click);
+            // 
             // SignIn
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.ResetPassword);
             this.Controls.Add(this.Exit_BTN);
             this.Controls.Add(this.Register_BTN);
             this.Controls.Add(this.SignIn_BTN);
@@ -91,5 +100,6 @@
         private Button SignIn_BTN;
         private Button Register_BTN;
         private Button Exit_BTN;
+        private Button ResetPassword;
     }
 }
