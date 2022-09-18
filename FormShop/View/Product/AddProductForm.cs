@@ -12,9 +12,9 @@ using FormShop.Model;
 
 namespace FormShop.View.AddProduct
 {
-    public partial class AppProductForm : Form
+    public partial class AddProductForm : Form
     {
-        public AppProductForm()
+        public AddProductForm()
         {
             InitializeComponent();
             categoryController = new CategoryController();
@@ -36,6 +36,11 @@ namespace FormShop.View.AddProduct
         private void AppProductForm_Load(object sender, EventArgs e)
         {
             this.id_comboBox.Items.AddRange(categoryController._categories.Select(x => x.Name).ToArray());
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

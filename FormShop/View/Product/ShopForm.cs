@@ -11,12 +11,12 @@ using System.Linq;
 
 namespace WindowsFormsApp1
 {
-    public partial class StartForm : Form
+    public partial class ShopForm : Form
     {
         ProductController product_controller;
         CategoryController category_controller;
 
-        public StartForm()
+        public ShopForm()
         {
             InitializeComponent();
             product_controller = new ProductController();
@@ -90,7 +90,7 @@ namespace WindowsFormsApp1
 
         private void AddProduct_button_Click(object sender, EventArgs e)
         {
-            AppProductForm addForm = new AppProductForm();
+            AddProductForm addForm = new AddProductForm();
             addForm.Show();
         }
     }

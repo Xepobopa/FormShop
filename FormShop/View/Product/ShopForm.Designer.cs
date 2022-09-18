@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp1
 {
-    partial class StartForm
+    partial class ShopForm
     {
         /// <summary>
         /// Обязательная переменная конструктора.

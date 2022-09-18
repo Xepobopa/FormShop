@@ -2,34 +2,37 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
-    <Compile Update="View\AddProduct\AppProductForm.cs">
+    <Compile Update="View\Product\AddProductForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="View\CustomControls\ProductControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="View\FailedForm.cs">
+    <Compile Update="View\Response\FailedForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="View\ManagerForm.cs">
+    <Compile Update="View\Response\SuccessForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="View\PasswordResetForm.cs">
+    <Compile Update="View\Users\ManagerForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="View\ProductChangeData\ChangeDataForm.cs">
+    <Compile Update="View\Autorization\PasswordResetForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="View\RegisterForm.cs">
+    <Compile Update="View\Product\ChangeDataForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="View\SignInForm.cs">
+    <Compile Update="View\Autorization\RegisterForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="View\StartForm.cs">
+    <Compile Update="View\Autorization\SignInForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="View\UserForm.cs">
+    <Compile Update="View\Product\ShopForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Users\UserForm.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

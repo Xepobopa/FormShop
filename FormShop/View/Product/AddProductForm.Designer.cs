@@ -1,6 +1,6 @@
 ﻿namespace FormShop.View.AddProduct
 {
-    partial class AppProductForm
+    partial class AddProductForm
     {
         /// <summary>
         /// Required designer variable.
@@ -103,11 +103,11 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(17, 15);
+            this.label1.Size = new System.Drawing.Size(63, 15);
             this.label1.TabIndex = 8;
-            this.label1.Text = "Id";
+            this.label1.Text = "Categories";
             // 
-            // AppProductForm
+            // AddProductForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -119,7 +119,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "AppProductForm";
+            this.Name = "AddProductForm";
             this.Text = "AppProductForm";
             this.Load += new System.EventHandler(this.AppProductForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.price_numericUpDown)).EndInit();

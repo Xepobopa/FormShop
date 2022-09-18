@@ -19,5 +19,10 @@ namespace FormShop.View
             InitializeComponent();
             ErrorMessage_LBL.Text = msg;
         }
+
+        private void ErrorMessage_LBL_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
