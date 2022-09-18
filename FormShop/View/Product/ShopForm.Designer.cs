@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApp1
+﻿namespace FromShop.View
 {
     partial class ShopForm
     {
@@ -156,7 +156,7 @@
             this.AddProduct_button.UseVisualStyleBackColor = true;
             this.AddProduct_button.Click += new System.EventHandler(this.AddProduct_button_Click);
             // 
-            // StartForm
+            // ShopForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -169,8 +169,8 @@
             this.Controls.Add(this.CategoryListBox);
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(2);
-            this.Name = "StartForm";
-            this.Text = "Form1";
+            this.Name = "ShopForm";
+            this.Text = "ShopForm";
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.ResumeLayout(false);

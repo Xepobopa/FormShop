@@ -4,12 +4,12 @@ using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using System.Collections.Generic;
 using FormShop.Model;
-using WindowsFormsApp1.View.CustomControls;
+using FromShop.View.CustomControls;
 using FormShop.Controller;
 using FormShop.View.AddProduct;
 using System.Linq;
 
-namespace WindowsFormsApp1
+namespace FromShop.View
 {
     public partial class ShopForm : Form
     {

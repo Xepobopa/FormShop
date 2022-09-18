@@ -1,7 +1,7 @@
 ﻿using FormShop.Model;
 using FormShop.View.ProductChangeData;
 
-namespace WindowsFormsApp1.View.CustomControls
+namespace FromShop.View.CustomControls
 {
     public partial class ProductControl : UserControl
     {

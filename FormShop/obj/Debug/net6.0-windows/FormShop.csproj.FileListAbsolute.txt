@@ -127,7 +127,6 @@ C:\Users\User\Desktop\test forms\FormShop\FormShop\bin\Debug\net6.0-windows\runt
 C:\Users\User\Desktop\test forms\FormShop\FormShop\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\User\Desktop\test forms\FormShop\FormShop\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\User\Desktop\test forms\FormShop\FormShop\obj\Debug\net6.0-windows\FormShop.csproj.AssemblyReference.cache
-C:\Users\User\Desktop\test forms\FormShop\FormShop\obj\Debug\net6.0-windows\WindowsFormsApp1.View.CustomControls.ProductControl.resources
 C:\Users\User\Desktop\test forms\FormShop\FormShop\obj\Debug\net6.0-windows\FormShop.View.FailedForm.resources
 C:\Users\User\Desktop\test forms\FormShop\FormShop\obj\Debug\net6.0-windows\FormShop.View.ManagerForm.resources
 C:\Users\User\Desktop\test forms\FormShop\FormShop\obj\Debug\net6.0-windows\FormShop.View.PasswordResetForm.resources
@@ -153,5 +152,6 @@ C:\Users\User\Desktop\test forms\FormShop\FormShop\obj\Debug\net6.0-windows\Form
 C:\Users\User\Desktop\test forms\FormShop\FormShop\obj\Debug\net6.0-windows\FormShop.genruntimeconfig.cache
 C:\Users\User\Desktop\test forms\FormShop\FormShop\obj\Debug\net6.0-windows\ref\FormShop.dll
 C:\Users\User\Desktop\test forms\FormShop\FormShop\obj\Debug\net6.0-windows\FormShop.View.AddProduct.AddProductForm.resources
-C:\Users\User\Desktop\test forms\FormShop\FormShop\obj\Debug\net6.0-windows\WindowsFormsApp1.ShopForm.resources
 C:\Users\User\Desktop\test forms\FormShop\FormShop\obj\Debug\net6.0-windows\FormShop.View.Response.SuccessForm.resources
+C:\Users\User\Desktop\test forms\FormShop\FormShop\obj\Debug\net6.0-windows\FromShop.View.CustomControls.ProductControl.resources
+C:\Users\User\Desktop\test forms\FormShop\FormShop\obj\Debug\net6.0-windows\FromShop.ShopForm.resources

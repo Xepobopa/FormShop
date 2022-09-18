@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApp1.View.CustomControls
+﻿namespace FromShop.View.CustomControls
 {
     partial class ProductControl
     {

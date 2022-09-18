@@ -28,46 +28,71 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.Shop_Button = new System.Windows.Forms.Button();
+            this.Settings_Button = new System.Windows.Forms.Button();
+            this.Exit_Button = new System.Windows.Forms.Button();
+            this.Orders_Button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // Shop_Button
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 15);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.Shop_Button.Location = new System.Drawing.Point(12, 12);
+            this.Shop_Button.Name = "Shop_Button";
+            this.Shop_Button.Size = new System.Drawing.Size(84, 23);
+            this.Shop_Button.TabIndex = 0;
+            this.Shop_Button.Text = "Магазин";
+            this.Shop_Button.UseVisualStyleBackColor = true;
+            this.Shop_Button.Click += new System.EventHandler(this.Shop_Button_Click);
             // 
-            // label2
+            // Settings_Button
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 80F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(229, 140);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(341, 142);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "ЮЗЕР";
+            this.Settings_Button.Location = new System.Drawing.Point(12, 41);
+            this.Settings_Button.Name = "Settings_Button";
+            this.Settings_Button.Size = new System.Drawing.Size(84, 23);
+            this.Settings_Button.TabIndex = 1;
+            this.Settings_Button.Text = "Настройки";
+            this.Settings_Button.UseVisualStyleBackColor = true;
+            // 
+            // Exit_Button
+            // 
+            this.Exit_Button.Location = new System.Drawing.Point(102, 41);
+            this.Exit_Button.Name = "Exit_Button";
+            this.Exit_Button.Size = new System.Drawing.Size(84, 23);
+            this.Exit_Button.TabIndex = 2;
+            this.Exit_Button.Text = "Выход";
+            this.Exit_Button.UseVisualStyleBackColor = true;
+            this.Exit_Button.Click += new System.EventHandler(this.Exit_Button_Click);
+            // 
+            // Orders_Button
+            // 
+            this.Orders_Button.Location = new System.Drawing.Point(102, 12);
+            this.Orders_Button.Name = "Orders_Button";
+            this.Orders_Button.Size = new System.Drawing.Size(84, 23);
+            this.Orders_Button.TabIndex = 3;
+            this.Orders_Button.Text = "Мои заказы";
+            this.Orders_Button.UseVisualStyleBackColor = true;
             // 
             // UserForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.ClientSize = new System.Drawing.Size(193, 87);
+            this.Controls.Add(this.Orders_Button);
+            this.Controls.Add(this.Exit_Button);
+            this.Controls.Add(this.Settings_Button);
+            this.Controls.Add(this.Shop_Button);
             this.Name = "UserForm";
             this.Text = "UserForm";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private Label label1;
-        private Label label2;
+        private Button Shop_Button;
+        private Button Settings_Button;
+        private Button Exit_Button;
+        private Button Orders_Button;
     }
 }

@@ -12,7 +12,7 @@ using FormShop.Controller;
 using FormShop.Model;
 //>>>>>>> main_functionality
 
-namespace WindowsFormsApp1
+namespace FromShop
 {
     internal static class Program
     {
@@ -34,6 +34,7 @@ namespace WindowsFormsApp1
             FormController.Add(new FailedForm());
             FormController.Add(new RegisterForm());
             FormController.Add(new PasswordResetForm());
+            FormController.Add(new ShopForm());
             FormController.SetErrorForm(new FailedForm());
             Application.Run(FormController.GetFirst());
         }

@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using FormShop.View;
+using FormShop.Controller;
 
 namespace FormShop.View
 {
@@ -15,6 +17,16 @@ namespace FormShop.View
         public UserForm()
         {
             InitializeComponent();
+        }
+
+        private void Shop_Button_Click(object sender, EventArgs e)
+        {
+            FormController.Start("ShopForm");
+        }
+
+        private void Exit_Button_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
