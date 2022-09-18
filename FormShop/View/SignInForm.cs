@@ -33,5 +33,11 @@ namespace FormShop.View
             FormController.Start("RegisterForm");
             userController = new UserController(); // релоадим контроллер, чтобы он получил новые данные
         }
+
+
+        private void ResetPassword_Click(object sender, EventArgs e)
+        {
+            FormController.Start("PasswordResetForm");
+        }
     }
 }

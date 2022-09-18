@@ -16,6 +16,14 @@
         },
         "runtime": {
           "FormShop.dll": {}
+        },
+        "resources": {
+          "ru/FormShop.resources.dll": {
+            "locale": "ru"
+          },
+          "uk/FormShop.resources.dll": {
+            "locale": "uk"
+          }
         }
       },
       "Dapper/2.0.123": {
