@@ -154,4 +154,4 @@ C:\Users\User\Desktop\test forms\FormShop\FormShop\obj\Debug\net6.0-windows\ref\
 C:\Users\User\Desktop\test forms\FormShop\FormShop\obj\Debug\net6.0-windows\FormShop.View.AddProduct.AddProductForm.resources
 C:\Users\User\Desktop\test forms\FormShop\FormShop\obj\Debug\net6.0-windows\FormShop.View.Response.SuccessForm.resources
 C:\Users\User\Desktop\test forms\FormShop\FormShop\obj\Debug\net6.0-windows\FromShop.View.CustomControls.ProductControl.resources
-C:\Users\User\Desktop\test forms\FormShop\FormShop\obj\Debug\net6.0-windows\FromShop.ShopForm.resources
+C:\Users\User\Desktop\test forms\FormShop\FormShop\obj\Debug\net6.0-windows\FormShop.View.ShopForm.resources

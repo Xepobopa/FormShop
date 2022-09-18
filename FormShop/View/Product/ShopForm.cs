@@ -9,7 +9,7 @@ using FormShop.Controller;
 using FormShop.View.AddProduct;
 using System.Linq;
 
-namespace FromShop.View
+namespace FormShop.View
 {
     public partial class ShopForm : Form
     {

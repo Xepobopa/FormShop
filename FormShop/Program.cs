@@ -1,16 +1,5 @@
-//<<<<<<< sign-in-form
 using FormShop.Controller;
-using FormShop.Model;
 using FormShop.View;
-//=======
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using FormShop.Controller;
-using FormShop.Model;
-//>>>>>>> main_functionality
 
 namespace FromShop
 {

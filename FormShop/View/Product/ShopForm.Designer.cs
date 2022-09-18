@@ -1,4 +1,4 @@
-﻿namespace FromShop.View
+﻿namespace FormShop.View
 {
     partial class ShopForm
     {
