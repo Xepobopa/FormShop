@@ -18,6 +18,9 @@
           "FormShop.dll": {}
         },
         "resources": {
+          "ru-RU/FormShop.resources.dll": {
+            "locale": "ru-RU"
+          },
           "ru/FormShop.resources.dll": {
             "locale": "ru"
           },

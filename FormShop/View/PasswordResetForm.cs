@@ -36,5 +36,8 @@ namespace FormShop.View
                 userController.Change(new User() {Email=this.LoginTB.Text,PasswordHash=(HashController.GenerateHash(this.PasswordTB.Text)) });
             }
         }
+
+        private void clearInputs_Button_Click(object sender, EventArgs e) =>
+            this.ConfirmPasswordTB.Text = this.LoginTB.Text = this.PasswordTB.Text = String.Empty;
     }
 }

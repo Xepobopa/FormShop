@@ -33,6 +33,7 @@
             this.ConfirmPasswordTB = new System.Windows.Forms.TextBox();
             this.PasswordTB = new System.Windows.Forms.TextBox();
             this.ResetButton = new System.Windows.Forms.Button();
+            this.clearInputs_Button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // LoginTB
@@ -57,10 +58,18 @@
             this.ResetButton.UseVisualStyleBackColor = true;
             this.ResetButton.Click += new System.EventHandler(this.ResetButton_Click);
             // 
+            // clearInputs_Button
+            // 
+            resources.ApplyResources(this.clearInputs_Button, "clearInputs_Button");
+            this.clearInputs_Button.Name = "clearInputs_Button";
+            this.clearInputs_Button.UseVisualStyleBackColor = true;
+            this.clearInputs_Button.Click += new System.EventHandler(this.clearInputs_Button_Click);
+            // 
             // PasswordResetForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.clearInputs_Button);
             this.Controls.Add(this.ResetButton);
             this.Controls.Add(this.PasswordTB);
             this.Controls.Add(this.ConfirmPasswordTB);
@@ -77,5 +86,6 @@
         private TextBox ConfirmPasswordTB;
         private TextBox PasswordTB;
         private Button ResetButton;
+        private Button clearInputs_Button;
     }
 }
